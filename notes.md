@@ -1,16 +1,16 @@
 # notes
 
-1. backface-visibility property
-2. BEM methodology
-3. coverr.co for cover videos
-4. object-fit property
-5. clip path
+1. backface-visibility property.
+2. BEM methodology.
+3. coverr.co for cover videos.
+4. object-fit property only works with height and width specified.
+5. clip path.
 6. box-decoration-break: clone;
 7. solid-color-gradient linear gradient with 2 color stops at same %
 8. general sibling ~
 9. adjascent sibling +
-10. -webkit-input-placeholder
-11. :placeholder-shown 
+10. -webkit-input-placeholder.
+11. :placeholder-shown. 
 12. in order to use position absolute parent element must be have position defined.
 13. column-* properties: column-gap, column-rule, column-count;
 14. hyphens needs document language to defined.
@@ -44,3 +44,12 @@ use ```opacity: 0;``` ```visibility: hidden;``` instead.
 37. ``last-child`` selects last child of container.
 38. ``last-of-type`` selects the same type element.
 39. media queries should be written in ``em``s and not in ``rem``s.
+
+# Grid layout - Nexter project
+40. we can use line names in repeat function, like this, ``repeat(3, [col-start] 1fr [col-end] )`` which will create ``col-start 1`` to ``col-start 3`` same with ``col-end``.
+41. ``grid-template-areas`` is actually easier.
+42. dot ( . ) is used to create empty cell.
+43. ``grid-auto-rows / columns`` can be used to style implicit grid items.
+44. ``grid-auto-flow`` changes the direction of implicit grid items.
+45. ``dense`` keyword is useful for removing holes in grid.
+
